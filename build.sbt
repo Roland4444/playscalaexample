@@ -8,6 +8,10 @@ lazy val root = (project in file("."))
       guice,
       "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test,
     ),
+    libraryDependencies ++= Seq(
+      jdbc,
+      "org.playframework.anorm" %% "anorm" % "2.6.4"
+    ),
     scalacOptions ++= Seq(
       "-feature",
       "-deprecation",
