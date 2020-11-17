@@ -23,3 +23,4 @@ class LoginController @Inject()(cc: MessagesControllerComponents) extends Messag
   }
 
 }
+/////https://askdev.ru/q/poluchit-stroku-tela-zaprosa-otpravlennuyu-v-post-request-v-play-framework-java-340221/
