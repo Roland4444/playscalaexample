@@ -30,7 +30,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
     <title>Title</title>
 </head>
 <body>
-<h4>Its work!  """),_display_(/*8.17*/login),format.raw/*8.22*/("""  """),format.raw/*8.24*/("""<br>  """),_display_(/*8.31*/password),format.raw/*8.39*/("""</h4>
+
 </body>
 </html>"""))
       }
@@ -48,11 +48,11 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: 2020-11-17T16:06:45.896
+                  DATE: 2020-11-17T17:20:53.349
                   SOURCE: /home/romanx/Downloads/play-samples-play-scala-forms-example/app/views/good.scala.html
-                  HASH: b25c3cb99a40abfbc5b261a47a7aa6e5e0fe454b
-                  MATRIX: 810->0|959->123|984->128|1013->130|1046->137|1074->145
-                  LINES: 26->1|33->8|33->8|33->8|33->8|33->8
+                  HASH: f328e82f16cdba9bc37b207b8dd284db1d552595
+                  MATRIX: 810->0
+                  LINES: 26->1
                   -- GENERATED --
               */
           

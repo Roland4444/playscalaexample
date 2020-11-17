@@ -13,7 +13,13 @@ class LoginController @Inject()(cc: MessagesControllerComponents) extends Messag
   def good(login: String, password: String) = Action {implicit request =>
     println(login)
     println(password)
-   // Ok(views.html.good())
-    views.html.index.render().
+    Ok(views.html.good())
+
   }
+
+  def test() = Action {
+    val age=22
+    Ok(views.html.test(age))
+  }
+
 }

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/romanx/Downloads/play-samples-play-scala-forms-example/conf/routes
-// @DATE:Tue Nov 17 15:56:48 MSK 2020
+// @DATE:Tue Nov 17 17:20:01 MSK 2020
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -28,6 +28,16 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:9
+    def test: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.LoginController.test",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "test"})
+        }
+      """
+    )
+  
     // @LINE:7
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.LoginController.login",
@@ -40,7 +50,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:15
+  // @LINE:16
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -48,7 +58,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:15
+    // @LINE:16
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -68,7 +78,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:12
+    // @LINE:13
     def createWidget: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.WidgetController.createWidget",
       """
@@ -88,7 +98,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:11
+    // @LINE:12
     def listWidgets: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.WidgetController.listWidgets",
       """

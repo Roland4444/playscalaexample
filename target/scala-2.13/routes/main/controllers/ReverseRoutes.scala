@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/romanx/Downloads/play-samples-play-scala-forms-example/conf/routes
-// @DATE:Tue Nov 17 15:56:48 MSK 2020
+// @DATE:Tue Nov 17 17:20:01 MSK 2020
 
 import play.api.mvc.Call
 
@@ -23,6 +23,12 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "trylogin" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("login", login)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("password", password)))))
     }
   
+    // @LINE:9
+    def test(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "test")
+    }
+  
     // @LINE:7
     def login(): Call = {
       
@@ -31,14 +37,14 @@ package controllers {
   
   }
 
-  // @LINE:15
+  // @LINE:16
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:15
+    // @LINE:16
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
@@ -53,7 +59,7 @@ package controllers {
     }
 
   
-    // @LINE:12
+    // @LINE:13
     def createWidget(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "widgets")
@@ -65,7 +71,7 @@ package controllers {
       Call("GET", _prefix)
     }
   
-    // @LINE:11
+    // @LINE:12
     def listWidgets(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "widgets")

@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/romanx/Downloads/play-samples-play-scala-forms-example/app/controllers/LoginController.scala:18:3: identifier expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  }[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/romanx/Downloads/play-samples-play-scala-forms-example/app/views/good.scala.html:8:31: not found: value password[0m
+[0m[[0m[31merror[0m] [0m[0m<h4>Its work!  @login  <br>  @password</h4>[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
