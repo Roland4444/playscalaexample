@@ -7,6 +7,7 @@ GET     /                           controllers.WidgetController.index
 GET     /login                      controllers.LoginController.login
 GET     /trylogin                   controllers.LoginController.good(login: String, password: String)
 GET     /test                       controllers.LoginController.test
+GET     /app                        controllers.LoginController.app
 
 # Widgets
 GET     /widgets                    controllers.WidgetController.listWidgets

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/romanx/Downloads/play-samples-play-scala-forms-example/conf/routes
-// @DATE:Tue Nov 17 17:20:01 MSK 2020
+// @DATE:Wed Nov 18 10:46:04 MSK 2020
 
 
 package router {

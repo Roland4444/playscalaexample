@@ -1,0 +1,10 @@
+PLAY1::
+RENDER TEMPLATE  =>  https://stackoverflow.com/questions/7708777/renderargs-is-null-in-template-in-play-framework
+TEMPLATE =>  https://www.playframework.com/documentation/1.2.4/templates
+
+PLAY2::
+SBT deps  =>  https://www.scala-sbt.org/1.x/docs/Library-Dependencies.html
+Scala templatess   =>    https://progi.pro/render-single-template-play-framework-7495835
+Parse parameters from request => https://askdev.ru/q/poluchit-stroku-tela-zaprosa-otpravlennuyu-v-post-request-v-play-framework-java-340221/
+PLAY 2 ROUTING AND INFO  => https://examples.javacodegeeks.com/enterprise-java/play-framework-path-query-and-route-default-params-example/
+DATABASE => https://stackoverflow.com/questions/22839836/cannot-connect-to-postgresql-db-in-play-framework
